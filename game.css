@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+body {
+  background-color: #789ec4;
+}
+h1 {
+  background-color: #081b31;
+  color: #ffff;
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 4px; */
+}
+.choice {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice:hover {
+  cursor: pointer;
+  /* opacity: 0.5; */
+  background-color: #081b31;
+}
+img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover; /* yeh apni image ko div ke according sahi kar leta hai */
+  border-radius: 50%;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+  margin-top: 5rem;
+}
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
+.msg-container {
+  margin-top: 4rem;
+}
+#msg {
+  background-color: #081b31;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  display: inline;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+a{
+   padding-top: 15px;
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
